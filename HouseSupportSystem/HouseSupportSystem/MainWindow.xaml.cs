@@ -22,7 +22,13 @@ namespace HouseSupportSystem
     {
         public MainWindow()
         {
+
             InitializeComponent();
+            var init = new AHP();
+            init.Initialize(3,7,5);
+            var score = init.startCounting();
+            this.score.Text = score[0].ToString();
+
         }
     }
 }

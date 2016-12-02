@@ -1,1 +1,14 @@
 D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\bin\Debug\HouseSupportSystem.exe.config
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\bin\Debug\HouseSupportSystem.exe
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\bin\Debug\HouseSupportSystem.pdb
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.csprojResolveAssemblyReference.cache
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\MainWindow.g.cs
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\App.g.cs
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem_MarkupCompile.cache
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem_MarkupCompile.lref
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\MainWindow.baml
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.g.resources
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.Properties.Resources.resources
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.csproj.GenerateResource.Cache
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.exe
+D:\Work\HouseSupportSystem\HouseSupportSystem\HouseSupportSystem\obj\Debug\HouseSupportSystem.pdb
