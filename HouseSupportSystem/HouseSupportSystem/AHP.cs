@@ -9,17 +9,17 @@ namespace HouseSupportSystem
 {
     class AHP
     {
-        
-        public float[,] matrix;
-        public float[] centroids;
-        public float[] average;
+        double[] r = { 0, 0, 0.58, 0.90, 1.12, 1.24, 1.32, 1.41, 1.45, 1.49, 1.51, 1.53, 1.55, 1.57, 1.58 };
+        public double[,] matrix;
+        public double[] centroids;
+        public double[] average;
         private int counter=0;
-        public void Initialize(params float[] value) //params int[] value
+        public void Initialize(params double[] value) //params int[] value
         {
             int dimension = CountMatrixLength(value);
-            matrix = new float[dimension,dimension];
-            average = new float[dimension];
-            centroids = new float[dimension];
+            matrix = new double[dimension,dimension];
+            average = new double[dimension];
+            centroids = new double[dimension];
 
             for (int i = 0; i < matrix.GetLength(1); i++)
             {
@@ -42,14 +42,27 @@ namespace HouseSupportSystem
             
         }
 
-        public float[] startCounting()
+        public double[] startCounting()
         {
             CalculateCentroids();
             CalculateVectorMatrix();
             return CalculateAverage();
         }
 
-        public int CountMatrixLength(float[] v)
+        public double CalculateConsistency()
+        {
+            double sum = 0;
+            for (int i = 0; i < matrix.GetLength(1); i++)
+            {
+                sum += centroids[i]*average[i];
+            }
+            sum = (sum - matrix.GetLength(1))/(matrix.GetLength(1) - 1);
+            sum = sum/r[matrix.GetLength(1)-1];
+            return sum;
+
+        }
+
+        public int CountMatrixLength(double[] v)
         {
       
             int counter = 0;
@@ -85,7 +98,7 @@ namespace HouseSupportSystem
             }
         }
 
-        public float[] CalculateAverage()
+        public double[] CalculateAverage()
         {
             for (int i = 0; i < matrix.GetLength(1); i++)
             {

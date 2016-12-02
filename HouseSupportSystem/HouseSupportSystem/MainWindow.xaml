@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="score" HorizontalAlignment="Left" Height="63" Margin="144,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="score" HorizontalAlignment="Left" Height="63" Margin="289,246,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="218"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" VerticalAlignment="Top" Height="138" Width="205"/>
 
     </Grid>
 </Window>
